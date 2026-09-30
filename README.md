@@ -18,9 +18,9 @@ End-to-end UI test automation framework for **WanderLust**, an Airbnb-inspired t
 
 ## What Is Covered
 
-| Area | Spec file | Page object | Scenarios |
-|------|-----------|-------------|-----------|
-| Login | `tests/auth/login.spec.ts` | `LoginPage` | Valid credentials redirect the user to the listings page. 
+| Area | Spec file | Page object | 
+|------|-----------|-------------|
+| Login | `tests/auth/login.spec.ts` | `LoginPage` | 
 | Signup | `tests/auth/signup.spec.ts` | `SignupPage` |
 | Create listing | `tests/listings/listing-create.spec.ts` | `NewListingPage` | 
 | View listing | `tests/listings/listing-view.spec.ts` | `ListingsPage`, `ListingDetailsPage` | 
